@@ -6,7 +6,7 @@ class NavbarList extends Component {
     render() {
         return (
             <div className="collapse navbar-collapse" id="navbarNav">
-                <ul className="navbar-nav ml auto">
+                <ul className={`navbar-nav m${this.props.alignment}-auto`}>
                     {this.props.children}
                 </ul>
             </div>

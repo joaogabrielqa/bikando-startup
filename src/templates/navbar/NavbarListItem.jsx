@@ -5,7 +5,7 @@ class NavbarListItem extends Component {
     render() {
         return (
             <li className="nav-item">
-                <Link to={this.props.route} className="nav-link">{this.props.value}</Link>
+                <Link to={this.props.route} className="nav-link"><i className={this.props.faIcon}></i> {this.props.value}</Link>
             </li>
         );
     }
